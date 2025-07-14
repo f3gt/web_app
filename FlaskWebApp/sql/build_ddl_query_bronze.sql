@@ -1,3 +1,7 @@
+/*
+dataframe to store building element list raw data in the bronze layer
+*/
+
 CREATE TABLE bronze.b15 (
     sr_no INT ,
     building NVARCHAR(100),
