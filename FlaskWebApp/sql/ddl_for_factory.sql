@@ -1,7 +1,10 @@
-
+/*
+wuaery to check if table present then drop the table
+else create the table to store data in bronze layer
+from usertab the userid is the primary key
+in other table userid refers to the user tab as foreign key
+*/
 use prod_data
-IF OBJECT_ID('bronze.user_tab','U') is not null
-	drop table bronze.user_tab
 
 create table bronze.user_tab (
 	sr_no int  identity(1,1),
