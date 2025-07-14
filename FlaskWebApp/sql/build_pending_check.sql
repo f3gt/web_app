@@ -1,3 +1,9 @@
+/*
+working in the flask 
+query specific for webapp balance retrieval
+check the balance element scope v/s casted
+*/
+
 ----building pending check
 
 SELECT element_id,per_building_total,casted,COALESCE(sum(pending),0) pending FROM (
