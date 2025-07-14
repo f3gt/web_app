@@ -1,3 +1,14 @@
+/*
+1.flask app to interact the webpage to the database
+2.loging in with userid and password
+3.once logged in based on the rights they are give acces to the tabs the can access
+4.can push the production data to the database
+5.using async onblur that is one element id entered and we leave the space
+    it shows the balance quantity to be produce and if its already produced its passes a warning
+
+*/
+
+
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from datetime import timedelta
 import pyodbc
