@@ -1,3 +1,7 @@
+/*
+procedure to update build quantity list
+*/
+
 create procedure  b15_update as
 begin
 	truncate table silver.b15
