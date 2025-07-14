@@ -1,3 +1,8 @@
+/*
+trigger to clean and store data from bronze layer(contains raw data)
+to the silver layer for further use
+*/
+
 ---- =================== creating trigger 
 use prod_data
 ---- Inserting Data bro bronze layer to the silver layer carousal
