@@ -1,3 +1,8 @@
+/*
+query to check if table present then drop the table
+else create the table to store data in silver layer
+*/
+
 use prod_data
 
 
