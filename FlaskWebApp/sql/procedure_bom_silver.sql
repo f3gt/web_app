@@ -1,3 +1,9 @@
+/*
+creating procedure to insert bom data from bronze layer to silver layer
+
+no data should get duplicate
+*/
+
 TRUNCATE table silver.precast_bom
 
 create procedure bom_in as 
