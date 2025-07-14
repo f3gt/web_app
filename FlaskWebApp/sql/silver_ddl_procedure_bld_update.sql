@@ -1,4 +1,6 @@
-
+/* 
+table to store building list data from brone layer to silver layer
+*/
 CREATE TABLE silver.b15 (
     sr_no int ,
     building NVARCHAR(100),
