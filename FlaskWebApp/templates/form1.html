@@ -1,0 +1,32 @@
+use akshay;
+select * from dpr
+where [Date]='2025-02-12'
+
+ALTER TABLE dbo.dpr
+ALTER COLUMN Date date;
+
+
+select * from [dbo].[rev_dpr]
+
+SELECT 
+    COLUMN_NAME,
+    DATA_TYPE,
+    CHARACTER_MAXIMUM_LENGTH
+FROM 
+    INFORMATION_SCHEMA.COLUMNS
+WHERE 
+    TABLE_NAME = 'rev_dpr' 
+    AND COLUMN_NAME = 'your_column_name';
+
+use akshay;
+ALTER table dbo.rev_dpr
+alter column Building NVARCHAR(50)
+
+use akshay;
+
+select [Date] from rev_dpr
+order by Sr_no asc
+
+use datawarehouse
+
+select * from gold.dim_customers
